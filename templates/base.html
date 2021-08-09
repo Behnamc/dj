@@ -13,7 +13,7 @@
     <nav>
         <div>
             <form action="{% url 'accounts:logout' %}" class="logout-link">
-                {% csrf_token %}
+                {% csrf_token %}# --
                 <button type="submit">Log out</button>
             </form>
         </div>
